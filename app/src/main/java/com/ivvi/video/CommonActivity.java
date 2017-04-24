@@ -30,10 +30,11 @@ public abstract class CommonActivity extends BaseActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //TODO to receive intent data  flashBuket data
     }
 
     @Override
-    public int getContentViewId() {
+    public int getLayoutId() {
         return R.layout.activity_common;
     }
 
